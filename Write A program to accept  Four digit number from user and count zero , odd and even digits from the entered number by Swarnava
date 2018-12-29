@@ -1,6 +1,6 @@
 i=1
 while int(i)>0:
-    num=input("Enter a 4 digit number: ")
+    num=input("Enter a 4 digit num: ")
     z=0
     e=0
     o=0
