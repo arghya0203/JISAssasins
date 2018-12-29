@@ -1,0 +1,9 @@
+'''Ques:6
+Write a  program to accept 5 names from user
+and store these names into an array sort these array element in alphabetical order.
+'''
+names=[]
+for i in range(5):
+    name = input("Enter the name: ")
+    names.append(name)
+print(sorted(names))
