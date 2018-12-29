@@ -1,0 +1,10 @@
+'''Ques:4
+Write a  program to accept ‘n’ numbers from user , store these numbers into an array and
+sort the numbers of an array using function.
+'''
+array=[]
+n=int(input("Enter how many numbers you want to enter: "))
+for i in range(n):
+    x=int(input("Enter the number: "))
+    array.append(x)
+print(sorted(array))
