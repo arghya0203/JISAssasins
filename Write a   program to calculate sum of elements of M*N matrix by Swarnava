@@ -1,0 +1,6 @@
+matrix=[[1,2],[3,4],[5,6]]
+sum1=0
+for i in matrix:
+    for j in i:
+        sum1=sum1+j
+print(sum1)
