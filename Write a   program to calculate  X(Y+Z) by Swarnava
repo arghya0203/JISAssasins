@@ -1,0 +1,7 @@
+X=int(input("Enter a number: "))
+Y=int(input("Enter a 1st power: "))
+Z=int(input("Enter a 2nd power: "))
+mul=1
+for i in range(X+Y):
+    multiply=mul*X
+print(multiply)
