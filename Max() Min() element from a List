@@ -1,0 +1,13 @@
+'''Write a   program to accept ‘n’ numbers from user ,
+store these numbers into an array. Find out maximum and minimum number from an Array.'''
+
+n=int(input("Enter the number of elements in the array: "))
+list=[]
+for i in range(0,n):
+    number=int(input("Enter the number of your choice: "))
+    list.append(number)
+print("You entered: {}".format(list))
+list.sort()  #list.sort() prints none because list.sort() returns none.
+#print("Sorted List is: {}".format(list))  #after list is sorted then it is printed.
+print("Maximum element = {}".format(max(list)))
+print("Minimum element = {}".format(min(list)))
