@@ -1,0 +1,12 @@
+'''Ques:10
+Write a  program to accept a string from user , delete all vowels from the string and display the result.
+'''
+string = input("Enter a string: ")
+array = []
+for i in string:
+    # print(i)
+    if i not in "aeiouAEIOU":
+        array.append(i)
+
+print("".join(array))
+
